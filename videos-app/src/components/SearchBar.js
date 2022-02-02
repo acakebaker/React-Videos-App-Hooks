@@ -18,7 +18,7 @@ const SearchBar = ({ onFormSubmit }) => {
                type='text' 
                value={term} 
                onChange={(e) => setTerm(e.target.value)} 
-               placeholder='Search for a video...'
+               placeholder='Search for a YouTube video...'
             />
          </div>
       </form>
